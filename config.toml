@@ -1,0 +1,73 @@
+project_id = "heriryaxwblplueanbqw"
+
+[functions.run-workflow]
+verify_jwt = false
+
+[functions.agent-chat]
+verify_jwt = true
+
+[functions.publish-twitter]
+verify_jwt = false
+
+[functions.publish-facebook]
+verify_jwt = false
+
+[functions.publish-instagram]
+verify_jwt = false
+
+[functions.publish-youtube]
+verify_jwt = false
+
+[functions.publish-telegram]
+verify_jwt = false
+
+[functions.publish-linkedin]
+verify_jwt = false
+
+[functions.publish-wordpress]
+verify_jwt = false
+
+[functions.publish-content]
+verify_jwt = false
+
+[functions.admin-stats]
+verify_jwt = false
+
+[functions.admin-users]
+verify_jwt = false
+
+[functions.admin-moderation]
+verify_jwt = false
+
+[functions.oauth-initiate]
+verify_jwt = false
+
+[functions.oauth-callback]
+verify_jwt = false
+
+[functions.oauth-refresh]
+verify_jwt = false
+
+[functions.ai-provider-test]
+verify_jwt = false
+
+[functions.generate-image]
+verify_jwt = true
+
+[functions.generate-video]
+verify_jwt = true
+
+[functions.create-notification]
+verify_jwt = true
+
+[functions.test-account]
+verify_jwt = false
+
+[functions.encrypt-credentials]
+verify_jwt = true
+
+[functions.migrate-credentials]
+verify_jwt = true
+
+[functions.post-results]
+verify_jwt = false
